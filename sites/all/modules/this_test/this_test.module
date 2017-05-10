@@ -1,0 +1,14 @@
+<?php
+function this_test_menu() {
+    $items = array();
+    $items['hello_friend'] = array(
+        'title' => 'Hey!',
+        'page callback' => 'say_hello',
+        'access callback' => TRUE,
+        'type' => MENU_CALLBACK,
+    );
+    return $items;
+}
+function say_hello() {
+    return '<p>Hey!</p>';
+}

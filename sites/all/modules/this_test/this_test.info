@@ -1,0 +1,7 @@
+name = "Module Test"
+description = "A simple module with testing"
+package = Epicodus Examples
+core = 7.x
+files[] = this_test.module
+files[] = this_test.test
+dependencies[] = simpletest
